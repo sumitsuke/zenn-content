@@ -81,6 +81,8 @@ published: true
 
 ## 次に読むなら
 
+同じ件を「実績」の形（問題・制約・調査・再現・原因・対応・検証・結果・やらなかったこと）で書いたものは Sumitsuke の実績詳細 → [「改ざん検知の警告が消えない」を 4 層で追って根治した](https://sumitsuke.jp/works/cases/integrity-warning/)。
+
 この記事は「どこを追うか」でした。「何を疑うか」は前の記事 → [生成 AI が書いたコードが壊れるときの典型 3 パターン](https://zenn.dev/tauridev/articles/ai-code-breaks-3-patterns)。追ったあとの判定を残す型は、検収シート（Markdown 1 枚・CC0）→ [AI 生成コードの検収シート](https://sumitsuke.jp/lab/ai-code-acceptance-sheet/)。
 
 ---

@@ -77,6 +77,8 @@ except Exception:
 
 ## 次に読むなら
 
+この記事の本家（検証環境・判定・証拠つきの完全版）は Sumitsuke Lab → [生成 AI のコードはどこで壊れるのか](https://sumitsuke.jp/lab/ai-code-breaks-3-patterns/)。
+
 この記事は「何を疑うか」でした。疑ったあと「どこを追うか」は、数字が合わないバグを計算→保存→読み出し→表示の 4 層で追った記録 → [計算した値 ≠ 保存した値 ≠ 表示した値](https://zenn.dev/tauridev/articles/numbers-dont-match-4-layers)。判定を残す型は [AI 生成コードの検収シート](https://sumitsuke.jp/lab/ai-code-acceptance-sheet/)（Markdown 1 枚・CC0）。
 
 ---
