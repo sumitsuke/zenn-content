@@ -186,7 +186,7 @@ $w$±5 では ResourceLeak の指摘（多くは行16）が一つの大きなク
 > 要点：生成は再現対象外（非決定）。**同梱した凍結記録（正規化済み指摘＋各生レスポンスのSHA-256）から、決定的な数表を誰でも再生成できる**（生レスポンス本文そのものは未保存）。
 
 ```bash
-git clone https://github.com/axiom-pro/llm-audit-nondeterminism
+git clone https://github.com/sumitsuke/llm-audit-nondeterminism
 cd llm-audit-nondeterminism
 
 # 第2層（決定的・LLM不要）：凍結ログから数表を再生成
@@ -217,20 +217,20 @@ python scripts/make_figures.py         # -> figures/nofreelunch.png
 
 *全データ・per-run記録（正規化済み指摘＋各生レスポンスのSHA-256。生レスポンス本文そのものは未保存）・グラウンドトゥルース・集計コード・独立再計算スクリプトを公開。測れなかったもの（他GPU/量子化・大型モデル）は「測っていない」と明記した。*
 
-リポジトリ：https://github.com/axiom-pro/llm-audit-nondeterminism
+リポジトリ：https://github.com/sumitsuke/llm-audit-nondeterminism
 
 ---
 
-### 筆者について — AIコードを"検証規律"で裏取りする
+### 検証の記録と現物は Sumitsuke Lab に
 
-この記事でやったこと（**AIの出力も、自分の測定器のバグも、独立再計算で裏取りする**）を、そのまま仕事にしています。§8 がその実演です。**お手伝いできることの本命は、AIコード監査です。**
+この記事の検証環境・判定・最終検証日・証拠（凍結ログ・集計コード・独立検算スクリプト）は、Sumitsuke Lab の本家記事にまとめています。数値はすべて凍結ログからの独立再計算で一致を確認したものです。
 
-- 🔍 **AIコード監査・修正**：AIで一気に作った後の「テスト不足・握り潰し・実装のズレ」を第三者の目で点検し、**どこが・なぜ危険か・どう直すか**をテキストで納品します（通話なし） — [ココナラで依頼](https://coconala.com/services/4282365)
-- 🧑‍💻 本記事のコード・全ログ・GT・独立検算スクリプト → [GitHub: llm-audit-nondeterminism](https://github.com/axiom-pro/llm-audit-nondeterminism)
-- 📝 姉妹編（Qiita）：[**AIは失敗を握り潰す、と思って120本測ったら**](https://qiita.com/tauridev/items/dc2a839a8f3618d0da12) — あちらは「**そもそも欠陥をどう見つけるか**（静的解析でも判定しきれない"握り潰し"）」、本記事は「**見つけた指摘がどれだけ揺れるか**」。**入口が違う2本**です。
-- 📖 物語版（note）：[**同じコードをAIに51回チェックさせた話——「多数決すれば安心」は幻想でした**](https://note.com/loyal_pipit687/n/n7b341eda5cba) — 本記事の内容を、非エンジニアの方にも読める物語として再構成したものです（測定の裏側の失敗談つき）。
+- 🧪 **本家（検証の記録つき）** → [Sumitsuke Lab: 同じコードを LLM に 51 回監査させると、指摘は再現するのか](https://sumitsuke.jp/lab/llm-audit-51-runs/)
+- 🧑‍💻 本記事のコード・全ログ・GT・独立検算スクリプト → [GitHub: sumitsuke/llm-audit-nondeterminism](https://github.com/sumitsuke/llm-audit-nondeterminism)
+- 📝 姉妹編（Qiita）：[**AIは失敗を握り潰す、と思って120本測ったら**](https://qiita.com/sumitsuke/items/dc2a839a8f3618d0da12) — あちらは「**そもそも欠陥をどう見つけるか**（静的解析でも判定しきれない"握り潰し"）」、本記事は「**見つけた指摘がどれだけ揺れるか**」。**入口が違う2本**です。
+- 📖 物語版（note）：[**同じコードをAIに51回チェックさせた話——「多数決すれば安心」は幻想でした**](https://note.com/sumitsuke/n/n7b341eda5cba) — 本記事の内容を、非エンジニアの方にも読める物語として再構成したものです（測定の裏側の失敗談つき）。
 
-AIで作ったコードに「一応動くけど、このまま出していいか不安」があるなら——本記事と同じ規律（ログ・テスト・静的解析・人の仕様確認を分けて点検）で監査します。テキスト完結・通話なしで相談できます（[プロフィール](https://coconala.com/users/6153961)。受託開発の依頼もこちらから）。
+生成 AI に書かせたコードや外注コードの「一応動くけど、このまま出していいか不安」は、本記事と同じ規律（ログ・テスト・静的解析・人の仕様確認を分けて点検）で受けています。テキスト完結・通話なし → [Sumitsuke Works: 点検と修理](https://sumitsuke.jp/works/repair/)
 
 ---
 
