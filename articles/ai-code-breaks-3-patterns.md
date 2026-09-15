@@ -3,7 +3,7 @@ title: "生成 AI が書いたコードが壊れるときの典型 3 パター�
 emoji: "🔍"
 type: "tech"
 topics: ["AI", "コードレビュー", "テスト", "Rust", "Python"]
-published: false
+published: true
 ---
 
 生成 AI に書かせたコードは、どこで壊れるのか。症状の一覧ではなく、自分のリポジトリ（Rust／Tauri のデスクトップアプリ・クローズドβ・ソロ開発）で実際に踏んで直した 3 件を、PR と commit の番号つきで書きます。ローカル LLM に書かせた 120 本を測った結果も添えます。
