@@ -1,4 +1,4 @@
-# 「Zenn 再デプロイ」タスクの実走結果を読むだけ（commit・push はしない）。09-16 の合格条件をそのまま並べる。
+﻿# 「Zenn 再デプロイ」タスクの実走結果を読むだけ（commit・push はしない）。09-16 の合格条件をそのまま並べる。
 $ErrorActionPreference = 'Continue'
 $repo = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $repo
