@@ -20,11 +20,13 @@ published: true
 
 `exit 0` が保証するのは「プロセスが異常終了しなかった」ことだけで、「検証が行われたか」とは無関係です。ところがその exit 0 すら、素直に信じられない場面がある。
 
-**再現（Node v24.14.0・2026 年 9 月）**: `node --check` は、`.js` の構文エラーを素通りします。同じ中身を `.mjs` にすると捕まえる。
+**再現（Node v24.14.0・2026 年 9 月）**: `node --check` は、**`import` か `export` を含む `.js`**（ESM 構文の `.js`）の構文エラーを、exit 0・エラー出力なしで素通りします。同じ中身を `.mjs` にすると捕まえる。⚠ 素の CJS の `.js` は正しく exit 1 になるので、条件を落とすと再現しません（09-16 に条件を確定）。
 
 ```bash
-cp 対象.js 毒.js && printf '\nfunction ((){\n' >> 毒.js
-node --check 毒.js  ; echo $?   # → 0（素通り）
+printf 'import fs from "node:fs";
+function ((){
+' > 毒.js   # import を含む .js に構文エラー
+node --check 毒.js  ; echo $?   # → 0（素通り・stderr なし）
 cp 毒.js 毒.mjs
 node --check 毒.mjs ; echo $?   # → 1（捕まえる）
 ```
