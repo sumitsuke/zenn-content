@@ -93,7 +93,7 @@ subset は fontTools の `Subsetter`。生成器が `fonts.css` も書き出し�
 
 ## 本家（検証の記録つき）
 
-この記事の本家（検証環境・判定 PASS・証拠＝commit と月次指標）は Sumitsuke Lab → [太字の Web フォントを「見出しで実際に描かれる 316 字」に絞ったら LCP はどれだけ縮むか](https://sumitsuke.jp/lab/font-700-core-rest-lcp/)。
+この記事の本家（検証環境・判定 PASS・証拠＝commit と月次指標）は Sumitsuke Lab → [太字の Web フォントを「見出しで実際に描かれる 316 字」に絞ったら LCP はどれだけ縮むか](https://sumitsuke.jp/via/zenn/lab/font-700-core-rest-lcp/)。
 
 ---
 

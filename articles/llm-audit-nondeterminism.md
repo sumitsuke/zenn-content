@@ -225,7 +225,7 @@ python scripts/make_figures.py         # -> figures/nofreelunch.png
 
 この記事の検証環境・判定・最終検証日・証拠（凍結ログ・集計コード・独立検算スクリプト）は、Sumitsuke Lab の本家記事にまとめています。数値はすべて凍結ログからの独立再計算で一致を確認したものです。
 
-- 🧪 **本家（検証の記録つき）** → [Sumitsuke Lab: 同じコードを LLM に 51 回監査させると、指摘は再現するのか](https://sumitsuke.jp/lab/llm-audit-51-runs/)
+- 🧪 **本家（検証の記録つき）** → [Sumitsuke Lab: 同じコードを LLM に 51 回監査させると、指摘は再現するのか](https://sumitsuke.jp/via/zenn/lab/llm-audit-51-runs/)
 - 🧑‍💻 本記事のコード・全ログ・GT・独立検算スクリプト → [GitHub: sumitsuke/llm-audit-nondeterminism](https://github.com/sumitsuke/llm-audit-nondeterminism)
 - 📝 姉妹編（Qiita）：[**AIは失敗を握り潰す、と思って120本測ったら**](https://qiita.com/sumitsuke/items/dc2a839a8f3618d0da12) — あちらは「**そもそも欠陥をどう見つけるか**（静的解析でも判定しきれない"握り潰し"）」、本記事は「**見つけた指摘がどれだけ揺れるか**」。**入口が違う2本**です。
 - 📖 物語版（note）：[**同じコードをAIに51回チェックさせた話——「多数決すれば安心」は幻想でした**](https://note.com/sumitsuke/n/n7b341eda5cba) — 本記事の内容を、非エンジニアの方にも読める物語として再構成したものです（測定の裏側の失敗談つき）。

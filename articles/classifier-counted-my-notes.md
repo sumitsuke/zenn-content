@@ -94,7 +94,7 @@ AI = r"(?<![A-Za-z])AI(?![A-Za-z])|ＡＩ|ChatGPT|Claude|Copilot|Gemini|Cursor|�
 
 ## 本家（検証の記録つき）
 
-この記事の本家（検証環境・判定・証拠つきの完全版）は Sumitsuke Lab → [語で数える器は、誰が書いた文字かを知らない](https://sumitsuke.jp/lab/classifier-counted-my-notes/)（失敗パターン実測録 #03）。
+この記事の本家（検証環境・判定・証拠つきの完全版）は Sumitsuke Lab → [語で数える器は、誰が書いた文字かを知らない](https://sumitsuke.jp/via/zenn/lab/classifier-counted-my-notes/)（失敗パターン実測録 #03）。
 
 ---
 
