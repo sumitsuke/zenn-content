@@ -95,7 +95,7 @@ fi
 
 緑は「検査が走って、赤にならなかった」ときだけ出るのではありません。「検査が走らなかった」「別の物を見た」「見えない領域だった」でも出る。だから信じる前に、**毒を 1 本入れて赤を見る**。
 
-生成 AI が書いたコード側の「緑のまま通る」型は、別記事「[生成 AI が書いたコードが壊れるときの典型 3 パターン](https://zenn.dev/tauridev/articles/ai-code-breaks-3-patterns)」に書きました。検査の結果を「実行／成功／失敗／スキップの件数」で残す型は [AI 生成コードの検収シート](https://sumitsuke.jp/lab/ai-code-acceptance-sheet/)（Markdown 1 枚・CC0）に置いています。
+生成 AI が書いたコード側の「緑のまま通る」型は、別記事「[生成 AI が書いたコードが壊れるときの典型 3 パターン](https://zenn.dev/tauridev/articles/ai-code-breaks-3-patterns)」に書きました。検査の結果を「実行／成功／失敗／スキップの件数」で残す型は [AI 生成コードの検収シート](https://sumitsuke.jp/via/zenn/lab/ai-code-acceptance-sheet/)（Markdown 1 枚・CC0）に置いています。
 
 ---
 

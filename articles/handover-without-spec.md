@@ -104,7 +104,7 @@ published: true
 
 仕様書を復元するのは、この 5 つの後で、依頼主が求めたときだけです。
 
-手順 5 の「未検証を残す」を含めて、受け取ったものの判定を 1 枚に残す型は [AI 生成コードの検収シート](https://sumitsuke.jp/lab/ai-code-acceptance-sheet/)（Markdown 1 枚・CC0）にしています。
+手順 5 の「未検証を残す」を含めて、受け取ったものの判定を 1 枚に残す型は [AI 生成コードの検収シート](https://sumitsuke.jp/via/zenn/lab/ai-code-acceptance-sheet/)（Markdown 1 枚・CC0）にしています。
 
 ---
 
