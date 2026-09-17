@@ -1,5 +1,5 @@
 ---
-title: "TypeScript 7.0 では従来の Compiler API がそのまま使えなかった——require は version だけ返し、解析は tree-sitter に切り替えた（既存分類と 60 本中 58 本一致）"
+title: "TypeScript 7.0 で従来の Compiler API が使えなかった——tree-sitter に切り替えた記録"
 emoji: "🧭"
 type: "tech"
 topics: ["TypeScript", "treesitter", "Node", "静的解析", "移行"]
