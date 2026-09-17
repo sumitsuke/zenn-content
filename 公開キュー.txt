@@ -1,0 +1,11 @@
+plugin-cost-benefit
+where-tokens-go-claude-code
+ai-review-reconciliation
+tool-calls-batched-or-not
+oracle-independence-caught-my-habits
+prove-tests-by-run-log
+outbound-network-guard-ci
+zero-human-edit-article
+jsonl-u2028-ledger-drift
+figure-overflow-check
+rich-editor-three-rules
