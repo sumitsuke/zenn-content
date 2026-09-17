@@ -14,3 +14,11 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+2026-09-18 08:35 未公開 3 本 [green-is-not-proof, handover-without-spec, six-retractions-before-ship]／今日の枠 3+0/2 本／待ち行列→true []／落とした []／push: git : To https://github.com/sumitsuke/zenn-content.git
+At C:\Users\oomor\Desktop\受注案件\zenn-content\再デプロイ.ps1:114 char:14
++     $push = (git push origin main 2>&1 | Out-String).Trim()
++              ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (To https://gith...enn-content.git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+   5cd6df1..3f188e6  main -> main／Qiita: なし
