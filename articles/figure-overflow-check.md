@@ -60,6 +60,10 @@ ImageDraw.ImageDraw.text = _logged
 
 ---
 
+### 本家（検証の記録つき）
+
+この記事の本家（検証環境・判定・証拠）は Sumitsuke Lab → [目視と bbox 検査は見るものが違う（検証の記録つき）](https://sumitsuke.jp/via/zenn/lab/figure-overflow-check/)。
+
 ### AI の利用について
 
 生成器と検査のコードは AI（Claude Code）が書き、目視の判定・「見ている範囲」の切り分け・公開の判断は人間が行いました。図は自分の記事のもの。

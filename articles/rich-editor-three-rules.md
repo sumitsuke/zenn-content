@@ -72,6 +72,10 @@ const sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(range);
 
 ---
 
+### 本家（検証の記録つき）
+
+この記事の本家（検証環境・判定・証拠）は Sumitsuke Lab → [対象確認・キャレット作成・事後検査を分けたら 14/14（検証の記録つき）](https://sumitsuke.jp/via/zenn/lab/rich-editor-three-rules/)。
+
 ### AI の利用について
 
 自動操作と JS の下書きは AI（Claude Code）が行い、失敗 3 型の記録・手順の確定・公開の押下は人間が行いました。対象は自分の記事 14 本。他人の投稿・アカウントは触っていません。
