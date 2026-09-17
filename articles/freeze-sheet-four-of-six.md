@@ -142,6 +142,7 @@ AI に技術記事を 1 本まるごと書かせ、人は本文に触らずに�
 
 この記事は「固定する → 測る → 道具を選ぶ → 公開後に伝播する」の 4 本のうち、**固定する**の回です。
 
+- 本家（別軸版・検証の記録つき）: [実験前の Freeze sheet は 6 枠中 4 枠だった——失敗パターン実測録 #12](https://sumitsuke.jp/via/zenn/lab/freeze-sheet-four-of-six/)
 - 結果側の記事: [人の編集を 0 にして技術記事を書かせ、いつもの検証にかけたら 15 件出た](https://zenn.dev/tauridev/articles/zero-human-edit-article)
 - 別軸版（工程 1 回の値段）: [検証工程の値段——人の編集 0 の原稿に、工程 1 回で消えた欠陥と消えなかった欠陥](https://sumitsuke.jp/via/zenn/lab/cost-of-one-verification-pass/)
 - 次（このシリーズ）: 記事 1 本を作る材料の作り方——解釈を入れず、コマンドの出力だけを渡す（近日）／公開の直前に効いた 4 つの運用ゲート（近日）
