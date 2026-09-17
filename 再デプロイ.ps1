@@ -16,6 +16,7 @@ param(
   [switch]$FailPush
 )
 $ErrorActionPreference = 'Stop'
+trap { try { Add-Content (Join-Path (Split-Path -Parent $MyInvocation.MyCommand.Path) '再デプロイ.log') ((Get-Date).ToString('yyyy-MM-dd HH:mm') + " 異常終了: $($_.Exception.Message)") -Encoding UTF8 } catch { }; exit 1 }   # 途中で落ちても 1 行は残す（黙って exit 1 にしない・09-18）
 if ($Repo -eq '') { $Repo = Split-Path -Parent $MyInvocation.MyCommand.Path }
 $log = Join-Path $Repo '再デプロイ.log'
 $queueFile = Join-Path $Repo '公開キュー.txt'
@@ -107,9 +108,9 @@ if ($pending.Count -gt 0 -or $flipped.Count -gt 0) {
     if ($FailPush) { Add-Content $log "$stamp [dry] push 失敗（模擬）: $msg" -Encoding UTF8; exit 1 }
     $pushed = "[dry] $msg"
   } else {
+    $ErrorActionPreference = 'Continue'   # git は成功時も stderr に書く（PowerShell 5.1 はそれを NativeCommandError にする）。add・commit も同じ＝09-17 22:20 は add の CRLF 警告で落ちて何も記録されなかった（09-18 実測）
     git add -A 2>&1 | Out-Null
     git commit --allow-empty -q -m $msg 2>&1 | Out-Null
-    $ErrorActionPreference = 'Continue'   # git は成功時も stderr に書く（PowerShell 5.1 はそれを NativeCommandError にする）
     $push = (git push origin main 2>&1 | Out-String).Trim()
     $code = $LASTEXITCODE
     $ErrorActionPreference = 'Stop'
