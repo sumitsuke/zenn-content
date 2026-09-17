@@ -162,6 +162,7 @@ ARTICLE.md は、当方の索引で「正本記事」と書いていたファイ
 
 この記事は「固定する → 測る → 道具を選ぶ → 公開後に伝播する」の 4 本のうち、**公開後に伝播する**の回です。
 
+- 本家（別軸版・検証の記録つき）: [公開した成績表は片側だった——失敗パターン実測録 #11](https://sumitsuke.jp/via/zenn/lab/reader-rederived-report-card/)
 - 検出器 2 つの成績表（同じ出来事の測定側）: 同じ Python 60 本に検出器を 2 つ当てたら、拾えた欠陥が 0/4 → 4/4 に裏返った（slug `two-detectors-python-60`・公開時に URL）
 - AI の指摘を現物で照合した回: [3 回・17 件、正しかったことと全部見つけたことは別](https://sumitsuke.jp/via/zenn/lab/ai-review-reconciliation/)
 - 元の記事: [AI が書いたコードは失敗を握り潰すか——120 本を測った](https://sumitsuke.jp/via/zenn/lab/ai-code-silent-fallback/)
