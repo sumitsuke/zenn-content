@@ -1,0 +1,16 @@
+﻿2026-09-16 23:13 未公開 3 本 [green-is-not-proof, handover-without-spec, six-retractions-before-ship] → push: git : To https://github.com/sumitsuke/zenn-content.git
+発生場所 C:\Users\oomor\Desktop\受注案件\zenn-content\再デプロイ.ps1:27 文字:10
++ $push = (git push origin main 2>&1 | Out-String).Trim()
++          ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (To https://gith...enn-content.git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+   2157b35..20c5205  main -> main
+error: update_ref failed for ref 'refs/remotes/origin/main': cannot lock ref 'refs/remotes/origin/main': Unable to crea
+te 'C:/Users/oomor/Desktop/蜿玲ｳｨ譯井ｻｶ/zenn-content/.git/refs/remotes/origin/main.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
