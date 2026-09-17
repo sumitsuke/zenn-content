@@ -9,3 +9,7 @@ zero-human-edit-article
 jsonl-u2028-ledger-drift
 figure-overflow-check
 rich-editor-three-rules
+ts7-compiler-api-tree-sitter
+reader-rederived-report-card
+freeze-sheet-four-of-six
+two-detectors-python-60
