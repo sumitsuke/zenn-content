@@ -5,6 +5,7 @@
 #    同じ日に何度実行しても、その日の合計は 2 本を超えない（状態ファイルで数える。true の本数を数えて pending にはしない）
 # ③ 変更があれば commit、無ければ空コミット → push。push が失敗したら状態ファイルを書かずに exit 1（再実行で同じ本を数え直す＝安全）
 # ④ Zenn で公開済み・Qiita 未投稿・Zenn 公開日の翌日以降かつ 20 時間以上・今日まだ Qiita へ出していない → 1 本だけ
+#    🔴 09-18: Zenn 由来の候補が 0 なら、待ち行列の順で Zenn 未公開の本を 1 本（Zenn より先に Qiita）＝Zenn が止まっても Qiita は 1 本/日で進む
 #    qiita_post_from_zenn.py --post（成功は _ids.json に残る＝重複しない／429 等の失敗は何も記録せず翌日に同じ本を再試行）
 # ⑤ 結果を 再デプロイ.log に 1 行
 # テスト用: -Repo <一時コピー> -Today 'YYYY-MM-DD' -DryRun（git・Qiita を呼ばない）-MockLive 'slug=2026-09-16T23:13:02+09:00,...'（Zenn API の代わり）-FailPush
@@ -152,10 +153,24 @@ if ($doneToday.Count -ge $qiitaPerDay) {
     $hours = ($now - $pub).TotalHours
     if ($pubDay -lt $today -and $hours -ge $qiitaMinHours) { $cands += $slug }
   }
+  # 🔴 09-18 裁定: Zenn 由来の候補が 0（Zenn が投稿数の上限で止まっている等）なら、待ち行列の順で Zenn 未公開（pending か正本）を 1 本だけ Qiita へ先に出す
+  #   （qiita_post_from_zenn.py が正本から組み、図だけ先に push する。Zenn が流れているときは Zenn 由来の候補が必ず在るのでここは通らない）
+  $fromSource = ''
+  if ($cands.Count -eq 0) {
+    # 順＝①repo で pending（true なのに Zenn 未公開＝②が既に待ち行列から落としている）→ ②待ち行列（正本）
+    $order = @($pending | Sort-Object)
+    if (Test-Path $queueFile) { $order += @(Get-Content $queueFile -Encoding UTF8 | ForEach-Object { [string]$_ } | Where-Object { $_.Trim() -ne '' }) }
+    foreach ($slug in $order) {
+      $slug = $slug.Trim()
+      if ($done -contains $slug) { continue }
+      if ($live.ContainsKey($slug)) { continue }   # Zenn 公開済み＝上の「翌日・20h」の側で扱う（pending＝repo に在るが Zenn 未公開、は正本と同じくここで拾う）
+      $cands = @($slug); $fromSource = '（正本から・Zenn より先）'; break
+    }
+  }
   if ($cands.Count -gt 0) {
     $slug = @($cands | Sort-Object)[0]   # @() が無いと候補 1 本のとき文字列の 1 文字目になる（毒テストで発見）
     if ($DryRun) {
-      $qiita = "[dry] 候補 $slug（他 $($cands.Count - 1) 本）"
+      $qiita = "[dry] 候補 $slug$fromSource（他 $($cands.Count - 1) 本）"
     } else {
       $env:PYTHONUTF8 = '1'
       $ErrorActionPreference = 'Continue'
@@ -163,7 +178,7 @@ if ($doneToday.Count -ge $qiitaPerDay) {
       $qcode = $LASTEXITCODE
       $ErrorActionPreference = 'Stop'
       if ($qcode -eq 0) {
-        $qiita = "$slug 投稿 OK"
+        $qiita = "$slug 投稿 OK$fromSource"
         $state.qiita[$today] = @($doneToday + $slug); Save-State
       } else {
         $qiita = "$slug 失敗 (exit $qcode・翌日に再試行): " + ($out -replace "`r?`n", ' ').Substring(0, [Math]::Min(160, $out.Length))
