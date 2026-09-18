@@ -22,6 +22,7 @@ $log = Join-Path $Repo '再デプロイ.log'
 $queueFile = Join-Path $Repo '公開キュー.txt'
 $stateFile = Join-Path $Repo '待ち行列_状態.json'
 $poster = 'C:\Users\oomor\Desktop\受注案件\記事一覧\_作業中\qiita_post_from_zenn.py'
+$queueTool = 'C:\Users\oomor\Desktop\受注案件\記事一覧\_作業中\zenn_queue.py'
 $idsFile = 'C:\Users\oomor\Desktop\受注案件\記事一覧\_作業中\qiita_out\_ids.json'
 if ($DryRun) { $idsFile = Join-Path $Repo '_ids.json' }
 $maxPerDay = 2
@@ -88,7 +89,19 @@ if (Test-Path $queueFile) {
   $rest = @()
   foreach ($slug in $queue) {
     $path = Join-Path $Repo "articles\$slug.md"
-    if (-not (Test-Path $path)) { $skipped += "$slug(無い)"; continue }          # 存在しない slug はキューから落とす
+    if (-not (Test-Path $path)) {
+      # 🔴 09-18 改定: repo に下書きを置かない。枠があれば正本（記事一覧/zenn/_作業中）から --materialize で published: true のまま写す
+      #   （Zenn の「投稿数の上限」が下書きも数える可能性への対策。正本が無い slug だけキューから落とす）
+      if ($flipped.Count -lt $slots) {
+        $env:PYTHONUTF8 = '1'
+        $ErrorActionPreference = 'Continue'
+        $mo = (& python $queueTool --materialize $slug --repo $Repo 2>&1 | Out-String).Trim()
+        $mcode = $LASTEXITCODE
+        $ErrorActionPreference = 'Stop'
+        if ($mcode -eq 0 -and (Test-Path $path)) { $flipped += $slug } else { $skipped += "$slug(正本から写せない: " + ($mo -replace "`r?`n", ' ').Substring(0, [Math]::Min(80, $mo.Length)) + ")" }
+      } else { $rest += $slug }
+      continue
+    }
     $text = [IO.File]::ReadAllText($path, $utf8NoBom)
     if (-not ($text -match '(?m)^published:\s*false')) { $skipped += "$slug(既に true)"; continue }   # 既に公開済み＝キューから落とす（重複処理しない）
     if ($flipped.Count -lt $slots) {
