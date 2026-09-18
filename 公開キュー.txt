@@ -13,3 +13,8 @@ ts7-compiler-api-tree-sitter
 reader-rederived-report-card
 freeze-sheet-four-of-six
 two-detectors-python-60
+figure-legibility-display-size
+ja-heading-midword-wrap-three
+helpful-button-negative-design
+lab-search-one-module-two-scorers
+review-seven-rounds-same-error
