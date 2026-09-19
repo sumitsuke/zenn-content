@@ -22,3 +22,6 @@ windows-ai-file-edit-five-traps
 three-checks-before-saying-not-found
 rules-in-documents-alone-dont-fire
 one-question-before-conclusion
+task-scheduler-powershell51-silent-exit
+new-zero-vs-unreplied-zero
+dont-fabricate-corrections
