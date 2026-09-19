@@ -42,7 +42,7 @@ if ($code -eq 0 -and $one -match 'HTTP 201') {
   $rem = ([regex]::Match($one, 'Rate-Remaining=\d+')).Value   # 2026-09-19: 成功時の一般 API 残量（投稿制限との切り分け）
   Add-Content $log "$stamp slot=$Slot OK $slug $url $rem" -Encoding UTF8
 } elseif ($one -match '429') {
-  $hdr = ($one -split "`n" | Where-Object { $_ -match "HTTP 429" } | Select-Object -First 1)   # 2026-09-19: Rate-Remaining／Retry-After／本文の type を残す（一般上限と投稿制限の切り分け）
+  $hdr = ([regex]::Match($one, 'HTTP 429[^|]{0,300}')).Value   # $one は改行を空白に潰してあるので、429 の行だけを 300 字まで
   Add-Content $log "$stamp slot=$Slot 429 $slug（上限） $hdr" -Encoding UTF8
 } elseif ($one -match '既に投稿済み|同じ題名') {
   Add-Content $log "$stamp slot=$Slot 既存 ${slug}: $($one.Substring(0, [Math]::Min(120, $one.Length)))" -Encoding UTF8
