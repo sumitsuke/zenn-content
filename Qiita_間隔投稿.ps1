@@ -41,7 +41,8 @@ if ($code -eq 0 -and $one -match 'HTTP 201') {
   $url = ([regex]::Match($one, 'https://qiita\.com/[^\s]+')).Value
   Add-Content $log "$stamp slot=$Slot OK $slug $url" -Encoding UTF8
 } elseif ($one -match '429') {
-  Add-Content $log "$stamp slot=$Slot 429 $slug（上限）" -Encoding UTF8
+  $hdr = ($one -split "`n" | Where-Object { $_ -match "HTTP 429" } | Select-Object -First 1)   # 2026-09-19: Rate-Remaining／Retry-After／本文の type を残す（一般上限と投稿制限の切り分け）
+  Add-Content $log "$stamp slot=$Slot 429 $slug（上限） $hdr" -Encoding UTF8
 } elseif ($one -match '既に投稿済み|同じ題名') {
   Add-Content $log "$stamp slot=$Slot 既存 ${slug}: $($one.Substring(0, [Math]::Min(120, $one.Length)))" -Encoding UTF8
 } else {
