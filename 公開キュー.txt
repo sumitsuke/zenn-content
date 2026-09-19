@@ -26,3 +26,4 @@ task-scheduler-powershell51-silent-exit
 new-zero-vs-unreplied-zero
 dont-fabricate-corrections
 font-subset-never-reached-production
+claude-code-startup-context-79k-88k
