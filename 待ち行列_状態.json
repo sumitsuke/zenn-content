@@ -2,11 +2,17 @@
     "zenn":  {
                  "2026-09-18":  [
 
+                                ],
+                 "2026-09-19":  [
+                                    "screenshot-ai-vs-dom-ten-rules"
                                 ]
              },
     "qiita":  {
                   "2026-09-18":  [
                                      "plugin-cost-benefit"
+                                 ],
+                  "2026-09-19":  [
+                                     "ask-ai-to-cut-30-percent-stops-at-8"
                                  ]
               }
 }
