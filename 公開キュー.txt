@@ -32,3 +32,4 @@ dont-fabricate-corrections
 font-subset-never-reached-production
 sanitize-comments-fail-closed-original-match
 two-sessions-one-working-copy
+two-watchdogs-silence-and-foreground
