@@ -1,3 +1,5 @@
+screenshot-ai-vs-dom-ten-rules
+ask-ai-to-cut-30-percent-stops-at-8
 transfer-size-vs-lcp-old-new
 claude-code-startup-context-79k-88k
 plugin-cost-benefit
@@ -28,3 +30,5 @@ task-scheduler-powershell51-silent-exit
 new-zero-vs-unreplied-zero
 dont-fabricate-corrections
 font-subset-never-reached-production
+sanitize-comments-fail-closed-original-match
+two-sessions-one-working-copy
