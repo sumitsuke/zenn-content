@@ -1,6 +1,12 @@
+screenshot-ai-vs-dom-ten-rules
+ask-ai-to-cut-30-percent-stops-at-8
+transfer-size-vs-lcp-old-new
 claude-code-startup-context-79k-88k
 plugin-cost-benefit
 where-tokens-go-claude-code
+ts7-compiler-api-tree-sitter
+task-scheduler-powershell51-silent-exit
+font-subset-never-reached-production
 ai-review-reconciliation
 tool-calls-batched-or-not
 oracle-independence-caught-my-habits
@@ -10,7 +16,6 @@ zero-human-edit-article
 jsonl-u2028-ledger-drift
 figure-overflow-check
 rich-editor-three-rules
-ts7-compiler-api-tree-sitter
 reader-rederived-report-card
 freeze-sheet-four-of-six
 two-detectors-python-60
@@ -23,10 +28,8 @@ windows-ai-file-edit-five-traps
 three-checks-before-saying-not-found
 rules-in-documents-alone-dont-fire
 one-question-before-conclusion
-task-scheduler-powershell51-silent-exit
 new-zero-vs-unreplied-zero
 dont-fabricate-corrections
-font-subset-never-reached-production
 sanitize-comments-fail-closed-original-match
 two-sessions-one-working-copy
 two-watchdogs-silence-and-foreground
