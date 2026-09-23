@@ -1,18 +1,24 @@
 {
     "zenn":  {
-                 "2026-09-18":  [
-
+                 "2026-09-21":  [
+                                    "transfer-size-vs-lcp-old-new"
                                 ],
                  "2026-09-19":  [
                                     "screenshot-ai-vs-dom-ten-rules"
+                                ],
+                 "2026-09-18":  [
+
                                 ]
              },
     "qiita":  {
-                  "2026-09-18":  [
-                                     "plugin-cost-benefit"
+                  "2026-09-21":  [
+
                                  ],
                   "2026-09-19":  [
                                      "ask-ai-to-cut-30-percent-stops-at-8"
+                                 ],
+                  "2026-09-18":  [
+                                     "plugin-cost-benefit"
                                  ]
               }
 }
