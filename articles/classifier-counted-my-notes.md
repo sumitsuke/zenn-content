@@ -105,4 +105,4 @@ AI = r"(?<![A-Za-z])AI(?![A-Za-z])|ＡＩ|ChatGPT|Claude|Copilot|Gemini|Cursor|�
 ### 受託でも同じ手順で読んでいます
 
 「集計の数字が合わない」「スクリプトが何を数えているか分からない」——そういう相談を、テキストだけで受けています。拾った箇所を印字するところから始めます。
-▶ [Sumitsuke ／ 動かない箇所の点検と修理](https://sumitsuke.jp/works/repair/)
+▶ [Sumitsuke ／ 動かない箇所の点検と修理](https://sumitsuke.jp/via/zenn/works/repair/)

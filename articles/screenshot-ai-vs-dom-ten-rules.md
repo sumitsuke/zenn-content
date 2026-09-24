@@ -105,4 +105,4 @@ const els = { R6: q('.toc-block summary'), R7: q('.toc-block li a'), R8: q('.sit
 
 ---
 
-Sumitsuke は、AI や外注で作ったものの点検と修理、業務自動化、検証を受託しています。「見れば分かる」を数に置き換えて合否を決める検証の設計は → https://sumitsuke.jp/works/verification/
+Sumitsuke は、AI や外注で作ったものの点検と修理、業務自動化、検証を受託しています。「見れば分かる」を数に置き換えて合否を決める検証の設計は → https://sumitsuke.jp/via/zenn/works/verification/

@@ -85,7 +85,7 @@ LP の FAQ に「中程度のジッター（レイテンシ補正で対応）」
 
 ## 同じ件を「実績」の形で
 
-問題・制約・調査・再現・原因・対応・検証・結果・やらなかったこと、の 9 項目で書いたものは Sumitsuke の実績詳細 → [出荷前に自分で撤回した「盛り」6 件](https://sumitsuke.jp/works/cases/pre-ship-audit/)。
+問題・制約・調査・再現・原因・対応・検証・結果・やらなかったこと、の 9 項目で書いたものは Sumitsuke の実績詳細 → [出荷前に自分で撤回した「盛り」6 件](https://sumitsuke.jp/via/zenn/works/cases/pre-ship-audit/)。
 
 ---
 
@@ -96,4 +96,4 @@ LP の FAQ に「中程度のジッター（レイテンシ補正で対応）」
 ### 受託でも同じ手順で読んでいます
 
 「AI に作らせたアプリの説明文が、本当にそう動くか分からない」——画面の語と実装を突き合わせる点検を、テキストだけで受けています。
-▶ [Sumitsuke ／ 生成 AI に書かせたコードの点検と修理](https://sumitsuke.jp/works/repair/)
+▶ [Sumitsuke ／ 生成 AI に書かせたコードの点検と修理](https://sumitsuke.jp/via/zenn/works/repair/)

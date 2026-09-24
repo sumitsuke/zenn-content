@@ -82,4 +82,4 @@ const ORDER = ['old', 'new', 'new', 'old', 'old', 'new', 'new', 'old', 'old', 'n
 
 ---
 
-Sumitsuke は、AI や外注で作ったものの点検と修理、業務自動化、検証を受託しています。「軽くしたはずなのに速くならない」の切り分けは → https://sumitsuke.jp/works/repair/
+Sumitsuke は、AI や外注で作ったものの点検と修理、業務自動化、検証を受託しています。「軽くしたはずなのに速くならない」の切り分けは → https://sumitsuke.jp/via/zenn/works/repair/

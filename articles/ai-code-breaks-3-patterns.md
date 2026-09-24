@@ -90,4 +90,4 @@ except Exception:
 ### 受託でも同じことをしています
 
 「生成 AI に書かせたコードが途中から壊れた」「直せる人がいない」——そういう相談を、テキストだけで受けています。診断は 33,000 円（税込・1 症状・1 営業日相当まで）。直せないと判断した場合も、その理由と代替案を報告します。
-▶ [Sumitsuke ／ 生成 AI に書かせたコードの修理](https://sumitsuke.jp/works/repair/)
+▶ [Sumitsuke ／ 生成 AI に書かせたコードの修理](https://sumitsuke.jp/via/zenn/works/repair/)

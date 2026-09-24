@@ -106,4 +106,4 @@ fi
 ### 受託でも同じ運用をしています
 
 検証の合否基準を着手前に決め、納品時に基準ごとの結果と根拠を文書で渡します。相談はテキストだけで完結します。
-▶ [Sumitsuke ／ 依頼から納品までの流れ](https://sumitsuke.jp/works/flow/)
+▶ [Sumitsuke ／ 依頼から納品までの流れ](https://sumitsuke.jp/via/zenn/works/pricing/)

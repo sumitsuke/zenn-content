@@ -103,4 +103,4 @@ lost = {k: c - a1.get(k, 0) for k, c in a0.items() if a1.get(k, 0) < c}
 
 ---
 
-Sumitsuke は、AI や外注で作ったものの点検と修理、業務自動化、検証を受託しています。「合否の条件を先に決めて、数で判定する」検収の設計は → https://sumitsuke.jp/works/verification/
+Sumitsuke は、AI や外注で作ったものの点検と修理、業務自動化、検証を受託しています。「合否の条件を先に決めて、数で判定する」検収の設計は → https://sumitsuke.jp/via/zenn/works/verification/

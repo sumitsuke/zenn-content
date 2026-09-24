@@ -124,4 +124,4 @@ published: true
 ### 受託でも同じ手順で読んでいます
 
 「作った人がいない」「仕様書がない」「AI に作らせたが直せない」——そういう相談を、テキストだけで受けています。着手前に「できること／できないこと」を文書で渡します。
-▶ [Sumitsuke ／ 依頼から納品までの流れ](https://sumitsuke.jp/works/flow/)
+▶ [Sumitsuke ／ 依頼から納品までの流れ](https://sumitsuke.jp/via/zenn/works/pricing/)
