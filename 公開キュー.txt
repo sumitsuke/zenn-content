@@ -1,4 +1,3 @@
-plugin-cost-benefit
 where-tokens-go-claude-code
 ts7-compiler-api-tree-sitter
 task-scheduler-powershell51-silent-exit
