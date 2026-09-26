@@ -3,6 +3,9 @@
                  "2026-09-24":  [
                                     "claude-code-startup-context-79k-88k"
                                 ],
+                 "2026-09-25":  [
+                                    "plugin-cost-benefit"
+                                ],
                  "2026-09-21":  [
                                     "transfer-size-vs-lcp-old-new"
                                 ],
@@ -16,6 +19,9 @@
     "qiita":  {
                   "2026-09-24":  [
                                      "ts7-compiler-api-tree-sitter"
+                                 ],
+                  "2026-09-25":  [
+                                     "oracle-independence-caught-my-habits"
                                  ],
                   "2026-09-21":  [
 
