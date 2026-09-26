@@ -22,7 +22,7 @@ if ($Repo -eq '') { $Repo = Split-Path -Parent $MyInvocation.MyCommand.Path }
 $log = Join-Path $Repo '再デプロイ.log'
 $queueFile = Join-Path $Repo '公開キュー.txt'
 $stateFile = Join-Path $Repo '待ち行列_状態.json'
-# 器の場所はこのスクリプトの 1 つ上（作業フォルダ）から組み立てる＝公開リポに手元の絶対パス（ユーザー名）を書かない（2026-09-26 外部精査）
+# 器の場所はこのスクリプトの置き場所の 1 つ上から組み立てる＝公開リポに手元の絶対パス（ユーザー名）を書かない（2026-09-26 外部精査）
 $tools = Join-Path (Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)) '記事一覧\_作業中'
 $poster = Join-Path $tools 'qiita_post_from_zenn.py'
 $queueTool = Join-Path $tools 'zenn_queue.py'
@@ -127,6 +127,11 @@ if ($pending.Count -gt 0 -or $flipped.Count -gt 0) {
     $ErrorActionPreference = 'Continue'   # git は成功時も stderr に書く（PowerShell 5.1 はそれを NativeCommandError にする）。add・commit も同じ＝09-17 22:20 は add の CRLF 警告で落ちて何も記録されなかった（09-18 実測）
     git add -A 2>&1 | Out-Null
     git commit --allow-empty -q -m $msg 2>&1 | Out-Null
+    # 公開リポの漏れ点検（手元のパス・個人のメール・読者のハンドル名＝2026-09-26 外部精査）。赤なら push しない（状態も書かない＝翌日に再試行）
+    $env:PYTHONUTF8 = '1'
+    $leakTool = Join-Path (Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)) '1_運用マニュアル\公開リポ_漏れ点検.py'
+    $leak = ((& python $leakTool --local $Repo 2>&1 | Out-String) -replace "`r?`n", ' ').Trim()   # ログは 1 回 1 行
+    if ($LASTEXITCODE -ne 0) { $ErrorActionPreference = 'Stop'; Add-Content $log "$stamp push 中止（公開リポの漏れ点検 exit $LASTEXITCODE）: $($leak.Substring(0, [Math]::Min(300, $leak.Length)))" -Encoding UTF8; exit 1 }
     $push = (git push origin main 2>&1 | Out-String).Trim()
     $code = $LASTEXITCODE
     $ErrorActionPreference = 'Stop'
