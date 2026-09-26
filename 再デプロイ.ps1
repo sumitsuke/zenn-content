@@ -22,9 +22,11 @@ if ($Repo -eq '') { $Repo = Split-Path -Parent $MyInvocation.MyCommand.Path }
 $log = Join-Path $Repo '再デプロイ.log'
 $queueFile = Join-Path $Repo '公開キュー.txt'
 $stateFile = Join-Path $Repo '待ち行列_状態.json'
-$poster = '<手元のパス>'
-$queueTool = '<手元のパス>'
-$idsFile = '<手元のパス>'
+# 器の場所はこのスクリプトの 1 つ上（作業フォルダ）から組み立てる＝公開リポに手元の絶対パス（ユーザー名）を書かない（2026-09-26 外部精査）
+$tools = Join-Path (Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)) '記事一覧\_作業中'
+$poster = Join-Path $tools 'qiita_post_from_zenn.py'
+$queueTool = Join-Path $tools 'zenn_queue.py'
+$idsFile = Join-Path $tools 'qiita_out\_ids.json'
 if ($DryRun) { $idsFile = Join-Path $Repo '_ids.json' }
 $maxPerDay = 2
 $qiitaPerDay = 1

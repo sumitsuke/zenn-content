@@ -15,8 +15,9 @@ $Repo = Split-Path -Parent $MyInvocation.MyCommand.Path
 $log = Join-Path $Repo 'qiita_間隔.log'
 $queueFile = Join-Path $Repo '公開キュー.txt'
 $exclFile = Join-Path $Repo 'qiita_除外.txt'
-$poster = '<手元のパス>'
-$idsFile = '<手元のパス>'
+$tools = Join-Path (Split-Path -Parent $Repo) '記事一覧\_作業中'   # 手元の絶対パス（ユーザー名）を公開リポに書かない（2026-09-26 外部精査）
+$poster = Join-Path $tools 'qiita_post_from_zenn.py'
+$idsFile = Join-Path $tools 'qiita_out\_ids.json'
 trap { Add-Content $log ((Get-Date).ToString('yyyy-MM-dd HH:mm') + " slot=$Slot 異常終了: $($_.Exception.Message)") -Encoding UTF8; exit 1 }
 $stamp = (Get-Date).ToString('yyyy-MM-dd HH:mm')
 
