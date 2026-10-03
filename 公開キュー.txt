@@ -1,4 +1,3 @@
-ts7-compiler-api-tree-sitter
 task-scheduler-powershell51-silent-exit
 font-subset-never-reached-production
 ai-review-reconciliation

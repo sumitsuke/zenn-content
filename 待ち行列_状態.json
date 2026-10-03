@@ -6,14 +6,20 @@
                  "2026-09-29":  [
                                     "clicked-is-not-saved-browser-automation"
                                 ],
+                 "2026-09-21":  [
+                                    "transfer-size-vs-lcp-old-new"
+                                ],
                  "2026-09-26":  [
                                     "robocopy-junction-error-zero-dirs-failed"
                                 ],
                  "2026-09-18":  [
 
                                 ],
-                 "2026-09-21":  [
-                                    "transfer-size-vs-lcp-old-new"
+                 "2026-09-25":  [
+                                    "plugin-cost-benefit"
+                                ],
+                 "2026-10-02":  [
+
                                 ],
                  "2026-09-24":  [
                                     "claude-code-startup-context-79k-88k"
@@ -24,14 +30,11 @@
                  "2026-09-19":  [
                                     "screenshot-ai-vs-dom-ten-rules"
                                 ],
-                 "2026-09-28":  [
-                                    "count-emphasis-clusters-240px"
-                                ],
-                 "2026-09-25":  [
-                                    "plugin-cost-benefit"
-                                ],
                  "2026-09-30":  [
                                     "wordpress-handover-admin-vs-wpcli"
+                                ],
+                 "2026-09-28":  [
+                                    "count-emphasis-clusters-240px"
                                 ]
              },
     "qiita":  {
@@ -41,14 +44,20 @@
                   "2026-09-29":  [
 
                                  ],
+                  "2026-09-21":  [
+
+                                 ],
                   "2026-09-26":  [
                                      "outbound-network-guard-ci"
                                  ],
                   "2026-09-18":  [
                                      "plugin-cost-benefit"
                                  ],
-                  "2026-09-21":  [
-
+                  "2026-09-25":  [
+                                     "oracle-independence-caught-my-habits"
+                                 ],
+                  "2026-10-02":  [
+                                     "figure-legibility-display-size"
                                  ],
                   "2026-09-24":  [
                                      "ts7-compiler-api-tree-sitter"
@@ -59,14 +68,11 @@
                   "2026-09-19":  [
                                      "ask-ai-to-cut-30-percent-stops-at-8"
                                  ],
-                  "2026-09-28":  [
-                                     "rich-editor-three-rules"
-                                 ],
-                  "2026-09-25":  [
-                                     "oracle-independence-caught-my-habits"
-                                 ],
                   "2026-09-30":  [
 
+                                 ],
+                  "2026-09-28":  [
+                                     "rich-editor-three-rules"
                                  ]
               }
 }
