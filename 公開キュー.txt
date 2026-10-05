@@ -1,4 +1,3 @@
-task-scheduler-powershell51-silent-exit
 font-subset-never-reached-production
 ai-review-reconciliation
 tool-calls-batched-or-not
