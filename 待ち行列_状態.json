@@ -24,6 +24,9 @@
                  "2026-10-02":  [
 
                                 ],
+                 "2026-10-08":  [
+                                    "tool-calls-batched-or-not"
+                                ],
                  "2026-10-01":  [
                                     "where-tokens-go-claude-code"
                                 ],
@@ -67,6 +70,9 @@
                                  ],
                   "2026-10-02":  [
                                      "figure-legibility-display-size"
+                                 ],
+                  "2026-10-08":  [
+                                     "new-zero-vs-unreplied-zero"
                                  ],
                   "2026-10-01":  [
                                      "two-detectors-python-60"
