@@ -1,4 +1,3 @@
-prove-tests-by-run-log
 outbound-network-guard-ci
 zero-human-edit-article
 jsonl-u2028-ledger-drift

@@ -6,14 +6,17 @@
                  "2026-09-25":  [
                                     "plugin-cost-benefit"
                                 ],
-                 "2026-09-26":  [
-                                    "robocopy-junction-error-zero-dirs-failed"
+                 "2026-10-09":  [
+                                    "oracle-independence-caught-my-habits"
                                 ],
                  "2026-09-18":  [
 
                                 ],
                  "2026-09-24":  [
                                     "claude-code-startup-context-79k-88k"
+                                ],
+                 "2026-09-26":  [
+                                    "robocopy-junction-error-zero-dirs-failed"
                                 ],
                  "2026-10-06":  [
                                     "font-subset-never-reached-production"
@@ -53,14 +56,17 @@
                   "2026-09-25":  [
                                      "oracle-independence-caught-my-habits"
                                  ],
-                  "2026-09-26":  [
-                                     "outbound-network-guard-ci"
+                  "2026-10-09":  [
+                                     "sanitize-comments-fail-closed-original-match"
                                  ],
                   "2026-09-18":  [
                                      "plugin-cost-benefit"
                                  ],
                   "2026-09-24":  [
                                      "ts7-compiler-api-tree-sitter"
+                                 ],
+                  "2026-09-26":  [
+                                     "outbound-network-guard-ci"
                                  ],
                   "2026-10-06":  [
                                      "review-seven-rounds-same-error"
