@@ -1,4 +1,3 @@
-zero-human-edit-article
 jsonl-u2028-ledger-drift
 figure-overflow-check
 rich-editor-three-rules
