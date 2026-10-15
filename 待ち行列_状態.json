@@ -6,6 +6,9 @@
                  "2026-10-13":  [
                                     "zero-human-edit-article"
                                 ],
+                 "2026-09-29":  [
+                                    "clicked-is-not-saved-browser-automation"
+                                ],
                  "2026-09-25":  [
                                     "plugin-cost-benefit"
                                 ],
@@ -14,9 +17,6 @@
                                 ],
                  "2026-09-18":  [
 
-                                ],
-                 "2026-09-24":  [
-                                    "claude-code-startup-context-79k-88k"
                                 ],
                  "2026-10-12":  [
 
@@ -48,8 +48,8 @@
                  "2026-10-08":  [
                                     "tool-calls-batched-or-not"
                                 ],
-                 "2026-09-29":  [
-                                    "clicked-is-not-saved-browser-automation"
+                 "2026-09-24":  [
+                                    "claude-code-startup-context-79k-88k"
                                 ],
                  "2026-09-19":  [
                                     "screenshot-ai-vs-dom-ten-rules"
@@ -59,6 +59,9 @@
                                 ],
                  "2026-10-07":  [
                                     "ai-review-reconciliation"
+                                ],
+                 "2026-10-14":  [
+                                    "search-tool-when-not-found-is-safe"
                                 ]
              },
     "qiita":  {
@@ -66,6 +69,9 @@
                                      "jsonl-u2028-ledger-drift"
                                  ],
                   "2026-10-13":  [
+
+                                 ],
+                  "2026-09-29":  [
 
                                  ],
                   "2026-09-25":  [
@@ -76,9 +82,6 @@
                                  ],
                   "2026-09-18":  [
                                      "plugin-cost-benefit"
-                                 ],
-                  "2026-09-24":  [
-                                     "ts7-compiler-api-tree-sitter"
                                  ],
                   "2026-10-12":  [
 
@@ -110,8 +113,8 @@
                   "2026-10-08":  [
                                      "new-zero-vs-unreplied-zero"
                                  ],
-                  "2026-09-29":  [
-
+                  "2026-09-24":  [
+                                     "ts7-compiler-api-tree-sitter"
                                  ],
                   "2026-09-19":  [
                                      "ask-ai-to-cut-30-percent-stops-at-8"
@@ -121,6 +124,9 @@
                                  ],
                   "2026-10-07":  [
                                      "rules-in-documents-alone-dont-fire"
+                                 ],
+                  "2026-10-14":  [
+
                                  ]
               }
 }
