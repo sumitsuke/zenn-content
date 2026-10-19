@@ -3,6 +3,9 @@
                  "2026-09-27":  [
 
                                 ],
+                 "2026-10-11":  [
+                                    "outbound-network-guard-ci"
+                                ],
                  "2026-10-13":  [
                                     "zero-human-edit-article"
                                 ],
@@ -18,23 +21,23 @@
                  "2026-09-18":  [
 
                                 ],
+                 "2026-10-18":  [
+                                    "wordpress-url-replace-serialized-length"
+                                ],
                  "2026-10-12":  [
 
                                 ],
-                 "2026-10-11":  [
-                                    "outbound-network-guard-ci"
+                 "2026-09-26":  [
+                                    "robocopy-junction-error-zero-dirs-failed"
                                 ],
                  "2026-10-06":  [
                                     "font-subset-never-reached-production"
                                 ],
-                 "2026-09-29":  [
-                                    "clicked-is-not-saved-browser-automation"
-                                ],
                  "2026-09-21":  [
                                     "transfer-size-vs-lcp-old-new"
                                 ],
-                 "2026-09-26":  [
-                                    "robocopy-junction-error-zero-dirs-failed"
+                 "2026-09-30":  [
+                                    "wordpress-handover-admin-vs-wpcli"
                                 ],
                  "2026-10-02":  [
 
@@ -63,8 +66,8 @@
                  "2026-10-17":  [
                                     "ai-agent-daily-check-ten-days"
                                 ],
-                 "2026-09-30":  [
-                                    "wordpress-handover-admin-vs-wpcli"
+                 "2026-09-29":  [
+                                    "clicked-is-not-saved-browser-automation"
                                 ],
                  "2026-10-07":  [
                                     "ai-review-reconciliation"
@@ -76,6 +79,9 @@
     "qiita":  {
                   "2026-09-27":  [
                                      "jsonl-u2028-ledger-drift"
+                                 ],
+                  "2026-10-11":  [
+                                     "overflow-zero-at-two-widths"
                                  ],
                   "2026-10-13":  [
 
@@ -92,23 +98,23 @@
                   "2026-09-18":  [
                                      "plugin-cost-benefit"
                                  ],
+                  "2026-10-18":  [
+
+                                 ],
                   "2026-10-12":  [
-
-                                 ],
-                  "2026-10-11":  [
-                                     "overflow-zero-at-two-widths"
-                                 ],
-                  "2026-10-06":  [
-                                     "review-seven-rounds-same-error"
-                                 ],
-                  "2026-09-29":  [
-
-                                 ],
-                  "2026-09-21":  [
 
                                  ],
                   "2026-09-26":  [
                                      "outbound-network-guard-ci"
+                                 ],
+                  "2026-10-06":  [
+                                     "review-seven-rounds-same-error"
+                                 ],
+                  "2026-09-21":  [
+
+                                 ],
+                  "2026-09-30":  [
+
                                  ],
                   "2026-10-02":  [
                                      "figure-legibility-display-size"
@@ -137,7 +143,7 @@
                   "2026-10-17":  [
 
                                  ],
-                  "2026-09-30":  [
+                  "2026-09-29":  [
 
                                  ],
                   "2026-10-07":  [
