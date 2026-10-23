@@ -66,6 +66,9 @@
                  "2026-10-11":  [
                                     "outbound-network-guard-ci"
                                 ],
+                 "2026-10-22":  [
+                                    "claude-code-auto-compact-line"
+                                ],
                  "2026-10-14":  [
                                     "search-tool-when-not-found-is-safe"
                                 ],
@@ -150,6 +153,9 @@
                                      "ask-ai-to-cut-30-percent-stops-at-8"
                                  ],
                   "2026-10-13":  [
+
+                                 ],
+                  "2026-10-22":  [
 
                                  ],
                   "2026-10-14":  [
