@@ -81,6 +81,9 @@
                  "2026-10-16":  [
                                     "github-email-block-misses-old-and-unregistered"
                                 ],
+                 "2026-10-25":  [
+                                    "claude-api-temperature-sdk-2-0-0-check"
+                                ],
                  "2026-09-18":  [
 
                                 ],
@@ -174,6 +177,9 @@
 
                                  ],
                   "2026-10-16":  [
+
+                                 ],
+                  "2026-10-25":  [
 
                                  ],
                   "2026-09-18":  [
