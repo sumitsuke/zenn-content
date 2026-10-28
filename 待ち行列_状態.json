@@ -9,6 +9,9 @@
                  "2026-09-27":  [
 
                                 ],
+                 "2026-10-25":  [
+                                    "claude-api-temperature-sdk-2-0-0-check"
+                                ],
                  "2026-09-25":  [
                                     "plugin-cost-benefit"
                                 ],
@@ -84,8 +87,8 @@
                  "2026-10-16":  [
                                     "github-email-block-misses-old-and-unregistered"
                                 ],
-                 "2026-10-25":  [
-                                    "claude-api-temperature-sdk-2-0-0-check"
+                 "2026-10-27":  [
+                                    "pwsh-766-startup-crash-update-notification"
                                 ],
                  "2026-09-18":  [
 
@@ -109,6 +112,9 @@
                                  ],
                   "2026-09-27":  [
                                      "jsonl-u2028-ledger-drift"
+                                 ],
+                  "2026-10-25":  [
+
                                  ],
                   "2026-09-25":  [
                                      "oracle-independence-caught-my-habits"
@@ -185,7 +191,7 @@
                   "2026-10-16":  [
 
                                  ],
-                  "2026-10-25":  [
+                  "2026-10-27":  [
 
                                  ],
                   "2026-09-18":  [
