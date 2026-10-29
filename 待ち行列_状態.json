@@ -78,6 +78,9 @@
                  "2026-10-11":  [
                                     "outbound-network-guard-ci"
                                 ],
+                 "2026-10-28":  [
+                                    "claude-code-compaction-count-own-logs"
+                                ],
                  "2026-10-22":  [
                                     "claude-code-auto-compact-line"
                                 ],
@@ -180,6 +183,9 @@
 
                                  ],
                   "2026-10-13":  [
+
+                                 ],
+                  "2026-10-28":  [
 
                                  ],
                   "2026-10-22":  [
