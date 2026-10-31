@@ -30,6 +30,9 @@
                  "2026-09-30":  [
                                     "wordpress-handover-admin-vs-wpcli"
                                 ],
+                 "2026-10-11":  [
+                                    "outbound-network-guard-ci"
+                                ],
                  "2026-09-21":  [
                                     "transfer-size-vs-lcp-old-new"
                                 ],
@@ -51,9 +54,6 @@
                  "2026-09-24":  [
                                     "claude-code-startup-context-79k-88k"
                                 ],
-                 "2026-10-13":  [
-                                    "zero-human-edit-article"
-                                ],
                  "2026-10-01":  [
                                     "where-tokens-go-claude-code"
                                 ],
@@ -72,14 +72,17 @@
                  "2026-10-09":  [
                                     "oracle-independence-caught-my-habits"
                                 ],
+                 "2026-10-14":  [
+                                    "search-tool-when-not-found-is-safe"
+                                ],
                  "2026-09-19":  [
                                     "screenshot-ai-vs-dom-ten-rules"
                                 ],
                  "2026-10-18":  [
                                     "wordpress-url-replace-serialized-length"
                                 ],
-                 "2026-10-11":  [
-                                    "outbound-network-guard-ci"
+                 "2026-10-13":  [
+                                    "zero-human-edit-article"
                                 ],
                  "2026-10-28":  [
                                     "claude-code-compaction-count-own-logs"
@@ -87,8 +90,8 @@
                  "2026-10-22":  [
                                     "claude-code-auto-compact-line"
                                 ],
-                 "2026-10-14":  [
-                                    "search-tool-when-not-found-is-safe"
+                 "2026-10-30":  [
+                                    "git-lone-cr-whole-file-diff"
                                 ],
                  "2026-10-16":  [
                                     "github-email-block-misses-old-and-unregistered"
@@ -140,9 +143,6 @@
                   "2026-09-30":  [
 
                                  ],
-                  "2026-10-11":  [
-                                     "overflow-zero-at-two-widths"
-                                 ],
                   "2026-09-21":  [
 
                                  ],
@@ -164,6 +164,9 @@
                   "2026-09-24":  [
                                      "ts7-compiler-api-tree-sitter"
                                  ],
+                  "2026-10-13":  [
+
+                                 ],
                   "2026-10-01":  [
                                      "two-detectors-python-60"
                                  ],
@@ -182,14 +185,17 @@
                   "2026-10-09":  [
                                      "sanitize-comments-fail-closed-original-match"
                                  ],
+                  "2026-10-14":  [
+
+                                 ],
                   "2026-09-19":  [
                                      "ask-ai-to-cut-30-percent-stops-at-8"
                                  ],
                   "2026-10-18":  [
 
                                  ],
-                  "2026-10-13":  [
-
+                  "2026-10-11":  [
+                                     "overflow-zero-at-two-widths"
                                  ],
                   "2026-10-28":  [
 
@@ -197,7 +203,7 @@
                   "2026-10-22":  [
 
                                  ],
-                  "2026-10-14":  [
+                  "2026-10-30":  [
 
                                  ],
                   "2026-10-16":  [
