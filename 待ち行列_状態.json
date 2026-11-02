@@ -15,6 +15,9 @@
                  "2026-09-25":  [
                                     "plugin-cost-benefit"
                                 ],
+                 "2026-11-01":  [
+                                    "jsonl-u2028-ledger-drift"
+                                ],
                  "2026-10-14":  [
                                     "search-tool-when-not-found-is-safe"
                                 ],
@@ -130,6 +133,9 @@
                                  ],
                   "2026-09-25":  [
                                      "oracle-independence-caught-my-habits"
+                                 ],
+                  "2026-11-01":  [
+
                                  ],
                   "2026-10-14":  [
 
