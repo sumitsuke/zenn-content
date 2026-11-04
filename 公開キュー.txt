@@ -1,4 +1,3 @@
-rich-editor-three-rules
 reader-rederived-report-card
 freeze-sheet-four-of-six
 two-detectors-python-60

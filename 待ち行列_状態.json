@@ -18,6 +18,9 @@
                  "2026-09-25":  [
                                     "plugin-cost-benefit"
                                 ],
+                 "2026-11-01":  [
+                                    "jsonl-u2028-ledger-drift"
+                                ],
                  "2026-10-14":  [
                                     "search-tool-when-not-found-is-safe"
                                 ],
@@ -81,8 +84,8 @@
                  "2026-10-09":  [
                                     "oracle-independence-caught-my-habits"
                                 ],
-                 "2026-11-01":  [
-                                    "jsonl-u2028-ledger-drift"
+                 "2026-11-03":  [
+
                                 ],
                  "2026-09-19":  [
                                     "screenshot-ai-vs-dom-ten-rules"
@@ -139,6 +142,9 @@
                                  ],
                   "2026-09-25":  [
                                      "oracle-independence-caught-my-habits"
+                                 ],
+                  "2026-11-01":  [
+
                                  ],
                   "2026-10-14":  [
 
@@ -203,7 +209,7 @@
                   "2026-10-09":  [
                                      "sanitize-comments-fail-closed-original-match"
                                  ],
-                  "2026-11-01":  [
+                  "2026-11-03":  [
 
                                  ],
                   "2026-09-19":  [
