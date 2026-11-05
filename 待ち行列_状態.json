@@ -30,8 +30,8 @@
                  "2026-10-08":  [
                                     "tool-calls-batched-or-not"
                                 ],
-                 "2026-09-26":  [
-                                    "robocopy-junction-error-zero-dirs-failed"
+                 "2026-11-04":  [
+                                    "rich-editor-three-rules"
                                 ],
                  "2026-10-24":  [
                                     "github-actions-queued-two-numbers"
@@ -68,6 +68,9 @@
                                 ],
                  "2026-10-01":  [
                                     "where-tokens-go-claude-code"
+                                ],
+                 "2026-09-26":  [
+                                    "robocopy-junction-error-zero-dirs-failed"
                                 ],
                  "2026-10-29":  [
 
@@ -155,8 +158,8 @@
                   "2026-10-08":  [
                                      "new-zero-vs-unreplied-zero"
                                  ],
-                  "2026-09-26":  [
-                                     "outbound-network-guard-ci"
+                  "2026-11-04":  [
+
                                  ],
                   "2026-10-24":  [
 
@@ -193,6 +196,9 @@
                                  ],
                   "2026-10-01":  [
                                      "two-detectors-python-60"
+                                 ],
+                  "2026-09-26":  [
+                                     "outbound-network-guard-ci"
                                  ],
                   "2026-10-29":  [
 
