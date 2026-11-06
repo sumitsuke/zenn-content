@@ -1,4 +1,3 @@
-reader-rederived-report-card
 freeze-sheet-four-of-six
 two-detectors-python-60
 figure-legibility-display-size
