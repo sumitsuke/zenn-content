@@ -63,8 +63,8 @@
                  "2026-09-24":  [
                                     "claude-code-startup-context-79k-88k"
                                 ],
-                 "2026-11-02":  [
-                                    "figure-overflow-check"
+                 "2026-11-06":  [
+                                    "reader-rederived-report-card"
                                 ],
                  "2026-10-01":  [
                                     "where-tokens-go-claude-code"
@@ -81,8 +81,8 @@
                  "2026-09-29":  [
                                     "clicked-is-not-saved-browser-automation"
                                 ],
-                 "2026-10-21":  [
-                                    "sonnet-opus-subagent-six-tasks"
+                 "2026-11-02":  [
+                                    "figure-overflow-check"
                                 ],
                  "2026-10-09":  [
                                     "oracle-independence-caught-my-habits"
@@ -98,6 +98,9 @@
                                 ],
                  "2026-10-13":  [
                                     "zero-human-edit-article"
+                                ],
+                 "2026-10-21":  [
+                                    "sonnet-opus-subagent-six-tasks"
                                 ],
                  "2026-10-28":  [
                                     "claude-code-compaction-count-own-logs"
@@ -191,7 +194,7 @@
                   "2026-09-24":  [
                                      "ts7-compiler-api-tree-sitter"
                                  ],
-                  "2026-11-02":  [
+                  "2026-11-06":  [
 
                                  ],
                   "2026-10-13":  [
@@ -212,7 +215,7 @@
                   "2026-09-29":  [
 
                                  ],
-                  "2026-10-21":  [
+                  "2026-11-02":  [
 
                                  ],
                   "2026-10-09":  [
@@ -229,6 +232,9 @@
                                  ],
                   "2026-10-11":  [
                                      "overflow-zero-at-two-widths"
+                                 ],
+                  "2026-10-21":  [
+
                                  ],
                   "2026-10-28":  [
 
