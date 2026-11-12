@@ -33,8 +33,8 @@
                  "2026-10-08":  [
                                     "tool-calls-batched-or-not"
                                 ],
-                 "2026-11-04":  [
-                                    "rich-editor-three-rules"
+                 "2026-11-11":  [
+                                    "figure-legibility-display-size"
                                 ],
                  "2026-10-24":  [
                                     "github-actions-queued-two-numbers"
@@ -53,6 +53,9 @@
                                 ],
                  "2026-10-23":  [
 
+                                ],
+                 "2026-11-04":  [
+                                    "rich-editor-three-rules"
                                 ],
                  "2026-10-20":  [
                                     "wordpress-tamper-where-found"
@@ -176,7 +179,7 @@
                   "2026-10-08":  [
                                      "new-zero-vs-unreplied-zero"
                                  ],
-                  "2026-11-04":  [
+                  "2026-11-11":  [
 
                                  ],
                   "2026-10-24":  [
@@ -192,6 +195,9 @@
                                      "rules-in-documents-alone-dont-fire"
                                  ],
                   "2026-10-23":  [
+
+                                 ],
+                  "2026-11-04":  [
 
                                  ],
                   "2026-10-20":  [
