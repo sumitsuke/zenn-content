@@ -9,8 +9,11 @@
                  "2026-10-17":  [
                                     "ai-agent-daily-check-ten-days"
                                 ],
-                 "2026-09-27":  [
-
+                 "2026-10-01":  [
+                                    "where-tokens-go-claude-code"
+                                ],
+                 "2026-11-14":  [
+                                    "helpful-button-negative-design"
                                 ],
                  "2026-11-09":  [
                                     "two-detectors-python-60"
@@ -81,8 +84,8 @@
                  "2026-11-13":  [
 
                                 ],
-                 "2026-10-01":  [
-                                    "where-tokens-go-claude-code"
+                 "2026-09-27":  [
+
                                 ],
                  "2026-09-26":  [
                                     "robocopy-junction-error-zero-dirs-failed"
@@ -161,8 +164,11 @@
                   "2026-10-17":  [
 
                                  ],
-                  "2026-09-27":  [
-                                     "jsonl-u2028-ledger-drift"
+                  "2026-10-01":  [
+                                     "two-detectors-python-60"
+                                 ],
+                  "2026-11-14":  [
+
                                  ],
                   "2026-11-09":  [
 
@@ -233,8 +239,8 @@
                   "2026-11-13":  [
 
                                  ],
-                  "2026-10-01":  [
-                                     "two-detectors-python-60"
+                  "2026-09-27":  [
+                                     "jsonl-u2028-ledger-drift"
                                  ],
                   "2026-09-26":  [
                                      "outbound-network-guard-ci"
