@@ -9,9 +9,6 @@
                  "2026-10-17":  [
                                     "ai-agent-daily-check-ten-days"
                                 ],
-                 "2026-10-01":  [
-                                    "where-tokens-go-claude-code"
-                                ],
                  "2026-11-14":  [
                                     "helpful-button-negative-design"
                                 ],
@@ -21,8 +18,8 @@
                  "2026-10-25":  [
                                     "claude-api-temperature-sdk-2-0-0-check"
                                 ],
-                 "2026-09-25":  [
-                                    "plugin-cost-benefit"
+                 "2026-11-15":  [
+                                    "lab-search-one-module-two-scorers"
                                 ],
                  "2026-11-01":  [
                                     "jsonl-u2028-ledger-drift"
@@ -84,8 +81,8 @@
                  "2026-11-13":  [
 
                                 ],
-                 "2026-09-27":  [
-
+                 "2026-10-01":  [
+                                    "where-tokens-go-claude-code"
                                 ],
                  "2026-09-26":  [
                                     "robocopy-junction-error-zero-dirs-failed"
@@ -129,14 +126,20 @@
                  "2026-10-22":  [
                                     "claude-code-auto-compact-line"
                                 ],
+                 "2026-09-27":  [
+
+                                ],
                  "2026-10-30":  [
                                     "git-lone-cr-whole-file-diff"
+                                ],
+                 "2026-10-27":  [
+                                    "pwsh-766-startup-crash-update-notification"
                                 ],
                  "2026-10-16":  [
                                     "github-email-block-misses-old-and-unregistered"
                                 ],
-                 "2026-10-27":  [
-                                    "pwsh-766-startup-crash-update-notification"
+                 "2026-09-25":  [
+                                    "plugin-cost-benefit"
                                 ],
                  "2026-09-18":  [
 
@@ -164,9 +167,6 @@
                   "2026-10-17":  [
 
                                  ],
-                  "2026-10-01":  [
-                                     "two-detectors-python-60"
-                                 ],
                   "2026-11-14":  [
 
                                  ],
@@ -176,8 +176,8 @@
                   "2026-10-25":  [
 
                                  ],
-                  "2026-09-25":  [
-                                     "oracle-independence-caught-my-habits"
+                  "2026-11-15":  [
+
                                  ],
                   "2026-11-01":  [
 
@@ -239,8 +239,8 @@
                   "2026-11-13":  [
 
                                  ],
-                  "2026-09-27":  [
-                                     "jsonl-u2028-ledger-drift"
+                  "2026-10-01":  [
+                                     "two-detectors-python-60"
                                  ],
                   "2026-09-26":  [
                                      "outbound-network-guard-ci"
@@ -284,14 +284,20 @@
                   "2026-10-22":  [
 
                                  ],
+                  "2026-09-27":  [
+                                     "jsonl-u2028-ledger-drift"
+                                 ],
                   "2026-10-30":  [
+
+                                 ],
+                  "2026-10-27":  [
 
                                  ],
                   "2026-10-16":  [
 
                                  ],
-                  "2026-10-27":  [
-
+                  "2026-09-25":  [
+                                     "oracle-independence-caught-my-habits"
                                  ],
                   "2026-09-18":  [
                                      "plugin-cost-benefit"
