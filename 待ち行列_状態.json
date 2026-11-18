@@ -9,9 +9,6 @@
                  "2026-10-17":  [
                                     "ai-agent-daily-check-ten-days"
                                 ],
-                 "2026-10-18":  [
-                                    "wordpress-url-replace-serialized-length"
-                                ],
                  "2026-11-14":  [
                                     "helpful-button-negative-design"
                                 ],
@@ -81,8 +78,8 @@
                  "2026-11-06":  [
                                     "reader-rederived-report-card"
                                 ],
-                 "2026-11-13":  [
-
+                 "2026-11-17":  [
+                                    "review-seven-rounds-same-error"
                                 ],
                  "2026-10-01":  [
                                     "where-tokens-go-claude-code"
@@ -111,8 +108,8 @@
                  "2026-09-19":  [
                                     "screenshot-ai-vs-dom-ten-rules"
                                 ],
-                 "2026-10-29":  [
-
+                 "2026-10-18":  [
+                                    "wordpress-url-replace-serialized-length"
                                 ],
                  "2026-10-13":  [
                                     "zero-human-edit-article"
@@ -123,8 +120,8 @@
                  "2026-10-28":  [
                                     "claude-code-compaction-count-own-logs"
                                 ],
-                 "2026-11-07":  [
-                                    "freeze-sheet-four-of-six"
+                 "2026-11-13":  [
+
                                 ],
                  "2026-10-22":  [
                                     "claude-code-auto-compact-line"
@@ -141,8 +138,14 @@
                  "2026-10-16":  [
                                     "github-email-block-misses-old-and-unregistered"
                                 ],
+                 "2026-10-29":  [
+
+                                ],
                  "2026-11-16":  [
 
+                                ],
+                 "2026-11-07":  [
+                                    "freeze-sheet-four-of-six"
                                 ],
                  "2026-09-18":  [
 
@@ -168,9 +171,6 @@
 
                                  ],
                   "2026-10-17":  [
-
-                                 ],
-                  "2026-10-18":  [
 
                                  ],
                   "2026-11-14":  [
@@ -242,7 +242,7 @@
                   "2026-11-06":  [
 
                                  ],
-                  "2026-11-13":  [
+                  "2026-11-17":  [
 
                                  ],
                   "2026-10-01":  [
@@ -272,7 +272,7 @@
                   "2026-09-19":  [
                                      "ask-ai-to-cut-30-percent-stops-at-8"
                                  ],
-                  "2026-10-29":  [
+                  "2026-10-18":  [
 
                                  ],
                   "2026-10-11":  [
@@ -284,7 +284,7 @@
                   "2026-10-28":  [
 
                                  ],
-                  "2026-11-07":  [
+                  "2026-11-13":  [
 
                                  ],
                   "2026-10-22":  [
@@ -302,7 +302,13 @@
                   "2026-10-16":  [
 
                                  ],
+                  "2026-10-29":  [
+
+                                 ],
                   "2026-11-16":  [
+
+                                 ],
+                  "2026-11-07":  [
 
                                  ],
                   "2026-09-18":  [
