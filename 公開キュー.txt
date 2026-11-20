@@ -1,4 +1,3 @@
-three-checks-before-saying-not-found
 rules-in-documents-alone-dont-fire
 one-question-before-conclusion
 new-zero-vs-unreplied-zero
