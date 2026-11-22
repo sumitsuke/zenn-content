@@ -1,4 +1,3 @@
-rules-in-documents-alone-dont-fire
 one-question-before-conclusion
 new-zero-vs-unreplied-zero
 dont-fabricate-corrections
