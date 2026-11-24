@@ -15,16 +15,13 @@
                  "2026-11-09":  [
                                     "two-detectors-python-60"
                                 ],
-                 "2026-10-20":  [
-                                    "wordpress-tamper-where-found"
-                                ],
                  "2026-11-15":  [
                                     "lab-search-one-module-two-scorers"
                                 ],
                  "2026-11-01":  [
                                     "jsonl-u2028-ledger-drift"
                                 ],
-                 "2026-11-13":  [
+                 "2026-11-23":  [
 
                                 ],
                  "2026-10-14":  [
@@ -45,8 +42,14 @@
                  "2026-09-30":  [
                                     "wordpress-handover-admin-vs-wpcli"
                                 ],
+                 "2026-10-15":  [
+
+                                ],
                  "2026-10-11":  [
                                     "outbound-network-guard-ci"
+                                ],
+                 "2026-11-16":  [
+
                                 ],
                  "2026-09-21":  [
                                     "transfer-size-vs-lcp-old-new"
@@ -57,29 +60,20 @@
                  "2026-10-23":  [
 
                                 ],
-                 "2026-11-04":  [
-                                    "rich-editor-three-rules"
+                 "2026-11-12":  [
+                                    "ja-heading-midword-wrap-three"
                                 ],
-                 "2026-11-16":  [
-
+                 "2026-10-20":  [
+                                    "wordpress-tamper-where-found"
                                 ],
                  "2026-10-19":  [
 
                                 ],
-                 "2026-11-12":  [
-                                    "ja-heading-midword-wrap-three"
-                                ],
                  "2026-10-02":  [
-
-                                ],
-                 "2026-09-27":  [
 
                                 ],
                  "2026-11-21":  [
 
-                                ],
-                 "2026-10-25":  [
-                                    "claude-api-temperature-sdk-2-0-0-check"
                                 ],
                  "2026-09-24":  [
                                     "claude-code-startup-context-79k-88k"
@@ -87,11 +81,14 @@
                  "2026-11-10":  [
 
                                 ],
+                 "2026-11-04":  [
+                                    "rich-editor-three-rules"
+                                ],
                  "2026-11-06":  [
                                     "reader-rederived-report-card"
                                 ],
-                 "2026-11-17":  [
-                                    "review-seven-rounds-same-error"
+                 "2026-11-13":  [
+
                                 ],
                  "2026-10-01":  [
                                     "where-tokens-go-claude-code"
@@ -99,8 +96,8 @@
                  "2026-09-26":  [
                                     "robocopy-junction-error-zero-dirs-failed"
                                 ],
-                 "2026-10-29":  [
-
+                 "2026-09-25":  [
+                                    "plugin-cost-benefit"
                                 ],
                  "2026-10-12":  [
 
@@ -120,8 +117,8 @@
                  "2026-09-19":  [
                                     "screenshot-ai-vs-dom-ten-rules"
                                 ],
-                 "2026-10-24":  [
-                                    "github-actions-queued-two-numbers"
+                 "2026-10-29":  [
+
                                 ],
                  "2026-11-20":  [
                                     "three-checks-before-saying-not-found"
@@ -144,7 +141,7 @@
                  "2026-10-22":  [
                                     "claude-code-auto-compact-line"
                                 ],
-                 "2026-11-19":  [
+                 "2026-09-27":  [
 
                                 ],
                  "2026-10-30":  [
@@ -156,8 +153,14 @@
                  "2026-10-16":  [
                                     "github-email-block-misses-old-and-unregistered"
                                 ],
-                 "2026-09-25":  [
-                                    "plugin-cost-benefit"
+                 "2026-09-28":  [
+                                    "count-emphasis-clusters-240px"
+                                ],
+                 "2026-10-25":  [
+                                    "claude-api-temperature-sdk-2-0-0-check"
+                                ],
+                 "2026-10-24":  [
+                                    "github-actions-queued-two-numbers"
                                 ],
                  "2026-10-09":  [
                                     "oracle-independence-caught-my-habits"
@@ -165,14 +168,14 @@
                  "2026-09-18":  [
 
                                 ],
-                 "2026-10-15":  [
-
+                 "2026-11-17":  [
+                                    "review-seven-rounds-same-error"
                                 ],
                  "2026-10-06":  [
                                     "font-subset-never-reached-production"
                                 ],
-                 "2026-09-28":  [
-                                    "count-emphasis-clusters-240px"
+                 "2026-11-19":  [
+
                                 ],
                  "2026-11-05":  [
 
@@ -194,16 +197,13 @@
                   "2026-11-09":  [
 
                                  ],
-                  "2026-10-20":  [
-
-                                 ],
                   "2026-11-15":  [
 
                                  ],
                   "2026-11-01":  [
 
                                  ],
-                  "2026-11-13":  [
+                  "2026-11-23":  [
 
                                  ],
                   "2026-10-14":  [
@@ -224,7 +224,13 @@
                   "2026-09-30":  [
 
                                  ],
+                  "2026-10-15":  [
+
+                                 ],
                   "2026-10-13":  [
+
+                                 ],
+                  "2026-11-16":  [
 
                                  ],
                   "2026-09-21":  [
@@ -236,28 +242,19 @@
                   "2026-10-23":  [
 
                                  ],
-                  "2026-11-04":  [
+                  "2026-11-12":  [
 
                                  ],
-                  "2026-11-16":  [
+                  "2026-10-20":  [
 
                                  ],
                   "2026-10-19":  [
 
                                  ],
-                  "2026-11-12":  [
-
-                                 ],
                   "2026-10-02":  [
                                      "figure-legibility-display-size"
                                  ],
-                  "2026-09-27":  [
-                                     "jsonl-u2028-ledger-drift"
-                                 ],
                   "2026-11-21":  [
-
-                                 ],
-                  "2026-10-25":  [
 
                                  ],
                   "2026-09-24":  [
@@ -266,10 +263,13 @@
                   "2026-11-10":  [
 
                                  ],
+                  "2026-11-04":  [
+
+                                 ],
                   "2026-11-06":  [
 
                                  ],
-                  "2026-11-17":  [
+                  "2026-11-13":  [
 
                                  ],
                   "2026-10-01":  [
@@ -278,8 +278,8 @@
                   "2026-09-26":  [
                                      "outbound-network-guard-ci"
                                  ],
-                  "2026-10-29":  [
-
+                  "2026-09-25":  [
+                                     "oracle-independence-caught-my-habits"
                                  ],
                   "2026-10-12":  [
 
@@ -299,7 +299,7 @@
                   "2026-09-19":  [
                                      "ask-ai-to-cut-30-percent-stops-at-8"
                                  ],
-                  "2026-10-24":  [
+                  "2026-10-29":  [
 
                                  ],
                   "2026-11-20":  [
@@ -323,8 +323,8 @@
                   "2026-10-22":  [
 
                                  ],
-                  "2026-11-19":  [
-
+                  "2026-09-27":  [
+                                     "jsonl-u2028-ledger-drift"
                                  ],
                   "2026-10-30":  [
 
@@ -335,8 +335,14 @@
                   "2026-10-16":  [
 
                                  ],
-                  "2026-09-25":  [
-                                     "oracle-independence-caught-my-habits"
+                  "2026-09-28":  [
+                                     "rich-editor-three-rules"
+                                 ],
+                  "2026-10-25":  [
+
+                                 ],
+                  "2026-10-24":  [
+
                                  ],
                   "2026-10-09":  [
                                      "sanitize-comments-fail-closed-original-match"
@@ -344,14 +350,14 @@
                   "2026-09-18":  [
                                      "plugin-cost-benefit"
                                  ],
-                  "2026-10-15":  [
+                  "2026-11-17":  [
 
                                  ],
                   "2026-10-06":  [
                                      "review-seven-rounds-same-error"
                                  ],
-                  "2026-09-28":  [
-                                     "rich-editor-three-rules"
+                  "2026-11-19":  [
+
                                  ],
                   "2026-11-05":  [
 
