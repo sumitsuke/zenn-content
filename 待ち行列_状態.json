@@ -6,26 +6,32 @@
                  "2026-10-31":  [
 
                                 ],
-                 "2026-11-22":  [
-                                    "rules-in-documents-alone-dont-fire"
-                                ],
-                 "2026-10-17":  [
-                                    "ai-agent-daily-check-ten-days"
-                                ],
                  "2026-11-14":  [
                                     "helpful-button-negative-design"
+                                ],
+                 "2026-09-27":  [
+
                                 ],
                  "2026-11-09":  [
                                     "two-detectors-python-60"
                                 ],
+                 "2026-10-20":  [
+                                    "wordpress-tamper-where-found"
+                                ],
                  "2026-11-15":  [
                                     "lab-search-one-module-two-scorers"
+                                ],
+                 "2026-11-01":  [
+                                    "jsonl-u2028-ledger-drift"
                                 ],
                  "2026-11-23":  [
 
                                 ],
-                 "2026-10-14":  [
-                                    "search-tool-when-not-found-is-safe"
+                 "2026-10-17":  [
+                                    "ai-agent-daily-check-ten-days"
+                                ],
+                 "2026-11-26":  [
+
                                 ],
                  "2026-10-10":  [
                                     "prove-tests-by-run-log"
@@ -45,37 +51,34 @@
                  "2026-09-25":  [
                                     "plugin-cost-benefit"
                                 ],
-                 "2026-10-11":  [
-                                    "outbound-network-guard-ci"
-                                ],
-                 "2026-11-16":  [
+                 "2026-09-18":  [
 
                                 ],
                  "2026-09-21":  [
                                     "transfer-size-vs-lcp-old-new"
                                 ],
+                 "2026-11-27":  [
+                                    "dont-fabricate-corrections"
+                                ],
                  "2026-10-07":  [
                                     "ai-review-reconciliation"
-                                ],
-                 "2026-11-18":  [
-                                    "windows-ai-file-edit-five-traps"
                                 ],
                  "2026-10-23":  [
 
                                 ],
+                 "2026-11-04":  [
+                                    "rich-editor-three-rules"
+                                ],
+                 "2026-11-16":  [
+
+                                ],
+                 "2026-09-26":  [
+                                    "robocopy-junction-error-zero-dirs-failed"
+                                ],
                  "2026-11-12":  [
                                     "ja-heading-midword-wrap-three"
                                 ],
-                 "2026-10-20":  [
-                                    "wordpress-tamper-where-found"
-                                ],
-                 "2026-10-19":  [
-
-                                ],
                  "2026-10-02":  [
-
-                                ],
-                 "2026-09-27":  [
 
                                 ],
                  "2026-11-21":  [
@@ -84,14 +87,11 @@
                  "2026-11-03":  [
 
                                 ],
-                 "2026-09-24":  [
-                                    "claude-code-startup-context-79k-88k"
+                 "2026-10-14":  [
+                                    "search-tool-when-not-found-is-safe"
                                 ],
                  "2026-11-10":  [
 
-                                ],
-                 "2026-11-04":  [
-                                    "rich-editor-three-rules"
                                 ],
                  "2026-11-06":  [
                                     "reader-rederived-report-card"
@@ -102,8 +102,8 @@
                  "2026-10-01":  [
                                     "where-tokens-go-claude-code"
                                 ],
-                 "2026-11-25":  [
-                                    "new-zero-vs-unreplied-zero"
+                 "2026-11-22":  [
+                                    "rules-in-documents-alone-dont-fire"
                                 ],
                  "2026-11-24":  [
                                     "one-question-before-conclusion"
@@ -114,14 +114,14 @@
                  "2026-09-29":  [
                                     "clicked-is-not-saved-browser-automation"
                                 ],
-                 "2026-11-02":  [
-                                    "figure-overflow-check"
+                 "2026-10-21":  [
+                                    "sonnet-opus-subagent-six-tasks"
                                 ],
-                 "2026-11-26":  [
-
+                 "2026-11-18":  [
+                                    "windows-ai-file-edit-five-traps"
                                 ],
-                 "2026-11-01":  [
-                                    "jsonl-u2028-ledger-drift"
+                 "2026-11-07":  [
+                                    "freeze-sheet-four-of-six"
                                 ],
                  "2026-09-19":  [
                                     "screenshot-ai-vs-dom-ten-rules"
@@ -135,14 +135,17 @@
                  "2026-10-13":  [
                                     "zero-human-edit-article"
                                 ],
-                 "2026-10-21":  [
-                                    "sonnet-opus-subagent-six-tasks"
+                 "2026-11-02":  [
+                                    "figure-overflow-check"
                                 ],
                  "2026-11-17":  [
                                     "review-seven-rounds-same-error"
                                 ],
                  "2026-10-28":  [
                                     "claude-code-compaction-count-own-logs"
+                                ],
+                 "2026-10-19":  [
+
                                 ],
                  "2026-10-29":  [
 
@@ -165,17 +168,17 @@
                  "2026-10-25":  [
                                     "claude-api-temperature-sdk-2-0-0-check"
                                 ],
-                 "2026-11-07":  [
-                                    "freeze-sheet-four-of-six"
-                                ],
-                 "2026-09-26":  [
-                                    "robocopy-junction-error-zero-dirs-failed"
+                 "2026-11-25":  [
+                                    "new-zero-vs-unreplied-zero"
                                 ],
                  "2026-10-09":  [
                                     "oracle-independence-caught-my-habits"
                                 ],
-                 "2026-09-18":  [
-
+                 "2026-09-24":  [
+                                    "claude-code-startup-context-79k-88k"
+                                ],
+                 "2026-10-11":  [
+                                    "outbound-network-guard-ci"
                                 ],
                  "2026-10-15":  [
 
@@ -194,10 +197,10 @@
                   "2026-10-26":  [
 
                                  ],
-                  "2026-10-31":  [
+                  "2026-10-22":  [
 
                                  ],
-                  "2026-11-22":  [
+                  "2026-10-31":  [
 
                                  ],
                   "2026-10-17":  [
@@ -210,6 +213,9 @@
 
                                  ],
                   "2026-11-15":  [
+
+                                 ],
+                  "2026-11-01":  [
 
                                  ],
                   "2026-11-23":  [
@@ -245,11 +251,11 @@
                   "2026-09-21":  [
 
                                  ],
+                  "2026-11-27":  [
+
+                                 ],
                   "2026-10-07":  [
                                      "rules-in-documents-alone-dont-fire"
-                                 ],
-                  "2026-11-18":  [
-
                                  ],
                   "2026-10-23":  [
 
@@ -266,13 +272,7 @@
                   "2026-10-02":  [
                                      "figure-legibility-display-size"
                                  ],
-                  "2026-09-27":  [
-                                     "jsonl-u2028-ledger-drift"
-                                 ],
                   "2026-11-21":  [
-
-                                 ],
-                  "2026-11-03":  [
 
                                  ],
                   "2026-09-24":  [
@@ -293,10 +293,10 @@
                   "2026-10-01":  [
                                      "two-detectors-python-60"
                                  ],
-                  "2026-11-25":  [
-
+                  "2026-09-26":  [
+                                     "outbound-network-guard-ci"
                                  ],
-                  "2026-11-24":  [
+                  "2026-11-26":  [
 
                                  ],
                   "2026-10-12":  [
@@ -308,10 +308,10 @@
                   "2026-11-02":  [
 
                                  ],
-                  "2026-11-26":  [
+                  "2026-11-18":  [
 
                                  ],
-                  "2026-11-01":  [
+                  "2026-11-03":  [
 
                                  ],
                   "2026-09-19":  [
@@ -329,7 +329,7 @@
                   "2026-10-21":  [
 
                                  ],
-                  "2026-11-17":  [
+                  "2026-11-22":  [
 
                                  ],
                   "2026-10-28":  [
@@ -338,11 +338,11 @@
                   "2026-10-29":  [
 
                                  ],
-                  "2026-10-22":  [
+                  "2026-11-25":  [
 
                                  ],
-                  "2026-11-19":  [
-
+                  "2026-09-27":  [
+                                     "jsonl-u2028-ledger-drift"
                                  ],
                   "2026-10-30":  [
 
@@ -353,17 +353,23 @@
                   "2026-10-16":  [
 
                                  ],
+                  "2026-09-28":  [
+                                     "rich-editor-three-rules"
+                                 ],
                   "2026-10-25":  [
 
                                  ],
                   "2026-11-07":  [
 
                                  ],
-                  "2026-09-26":  [
-                                     "outbound-network-guard-ci"
+                  "2026-11-24":  [
+
                                  ],
                   "2026-10-09":  [
                                      "sanitize-comments-fail-closed-original-match"
+                                 ],
+                  "2026-11-17":  [
+
                                  ],
                   "2026-09-18":  [
                                      "plugin-cost-benefit"
@@ -374,8 +380,8 @@
                   "2026-10-06":  [
                                      "review-seven-rounds-same-error"
                                  ],
-                  "2026-09-28":  [
-                                     "rich-editor-three-rules"
+                  "2026-11-19":  [
+
                                  ],
                   "2026-11-05":  [
 
